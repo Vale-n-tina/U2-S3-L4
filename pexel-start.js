@@ -1,6 +1,6 @@
 const buttonLoad = document.getElementById("buttonLoad");
 
-const title=document.getElementsByClassName
+
 const cercacose = function (ricerca) {
   fetch(`https://api.pexels.com/v1/search?query=${ricerca}&per_page=9`, {
     headers: {
